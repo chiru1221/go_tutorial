@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <div id="main">
+        <div>
             <form action="/save" method="post">
                 task
                 <br>
@@ -17,6 +17,9 @@
                 <br>
                 <input type="submit" value="send">
             </form>
+        </div>
+        <div>
+            {{printf "%s" .Task}}
         </div>
     </body>
 </html>
