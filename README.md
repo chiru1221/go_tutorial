@@ -3,6 +3,10 @@
 https://golang.org/doc/tutorial/create-module
 - wiki  
 https://golang.org/doc/articles/wiki/
+- mysql  
+http://go-database-sql.org/
+- memo  
+
 
 
 ## Docker run
